@@ -1,0 +1,67 @@
+/*
+	Author: Komborero Chiweshe;
+	Project_Name: Kyle Meats Admin;
+	Version 1.0.0;
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+.logo{
+	position: absolute;
+	text-align: left;
+}
+.logo-img{
+	width: 20%;
+	
+}
+.wrapper{
+	width: 80%;
+	padding: 1%;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+	color: white;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+/*Munu CSS*/
+.success{
+	color: #4cd137;
+	font-weight: bold;
+}
+.error{
+	color: #e74c3c;
+	font-weight: bold;
+}
+
+/*Main content CSS*/
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	text-align: center;
+	padding: 2%;
+	float: left;
+}
+btn-primary a:hover{
+	color: white;
+}
+
+/*Footer CSS*/
+.footer{
+	background-color: rgb(45, 45, 73);
+}
+.text-center a{
+	text-decoration: none;
+	color: rgb(103, 216, 239);
+}
+.text-center a:hover{
+	color: rgb(82, 154, 179);
+}
